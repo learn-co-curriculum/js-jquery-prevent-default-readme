@@ -8,7 +8,7 @@
 
 What happens when you submit a form? Think about when you sign up for an online service, such as an Amazon account, or log into your Facebook or email accounts. What happens in the browser when you submit those forms? As soon as the form is submitted, the page in the browser refreshes. This happens every single time. This is known as the default browser behavior.
 
-While this is obviously the behavior we would want to have most of the time, there are times when you maybe don't want a page refresh. Maybe you have client-side validations that check to make sure the form input is correct and the user doesn't enter valid input. Maybe you're building a single page application (like the calculator we built, or a to-do list), and refreshing the page would clear the data from the page.
+While this is obviously the behavior we would want to have most of the time, there are times when you maybe don't want a page refresh. Maybe you have client-side validations that check to make sure the form input is correct and the user doesn't enter invalid input. Maybe you're building a single page application (like the calculator we built, or a to-do list), and refreshing the page would clear the data from the page.
 
 Both of those circumstances involve stopping jQuery from performing the default behavior. We can do that by using the `preventDefault` function.
 
@@ -84,3 +84,5 @@ This stops the event from performing its default behavior. Go into `js/script.js
 + [jQuery Event Object](https://api.jquery.com/category/events/event-object/).
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-prevent-default-readme' title='Prevent Default'>Prevent Default</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-jquery-prevent-default-readme'>Prevent Default</a> on Learn.co and start learning to code for free.</p>
